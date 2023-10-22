@@ -9,6 +9,7 @@
         email: "matbmp@gmail.com",
         coins: 100000000
     }
+    let password: string
 </script>
 
 <div class="h-full flex items-center justify-center">
@@ -19,6 +20,9 @@
 
         <label for="username" class='py-2'>Username</label> 
         <input type="text" bind:value={user.username} class='field'/>
+
+        <label for="password" class='py-2'>Password</label> 
+        <input type="password" bind:value={password} class='field'/>
 
         <a href="/register" class='btn-primary-full mt-6'>Save changes</a>
     </div>
